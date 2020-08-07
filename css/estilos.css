@@ -96,16 +96,16 @@ audio {
   transform: skewY(6deg);
 }
 
-.container section h1 {
+.container2 section h1 {
   margin-left: 90px;
   margin-top: 50px;
   margin-bottom: 30px;
   color: #fff;
 }
 
-.container img {
+.container2 img {
   margin-left: 40px;
-  /* margin-top: 20px; */
+  margin-top: 20px;
 }
 
 .img-telefono .container {
@@ -239,7 +239,18 @@ footer {
 
 /* responsive*/
 @media screen and (max-width: 400px) {
-.img-telefono .container{
+.container2 img{
+width: 80%;
+}.container2 section h1{
+  color: #fff;
+    display: flex;
+    margin-left: 5px;
+    justify-content: center;
+}.img-telefono img {
+    max-width: 200px;
+    margin-top: 50px;
+    margin-left: 20px;
+}.img-telefono .container{
   display: flex;
   flex-direction: column;
 }
