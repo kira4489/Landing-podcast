@@ -243,6 +243,7 @@ audio {
   width: 100%;
   bottom: 0;
 }
+
 .titulo p {
   margin-left: 30px;
 }
@@ -263,7 +264,7 @@ audio {
 }
 
 /* responsive*/
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .container2 img {
     width: 80%;
   }
@@ -290,5 +291,8 @@ audio {
   .temas {
     display: flex;
     flex-direction: column;
+    margin-left: 50px;
+  }.principal h2{
+    margin-left: 41px;
   }
 }
