@@ -237,3 +237,19 @@ footer {
     text-align: center;
   }
 
+/* responsive*/
+@media screen and (max-width: 400px) {
+.img-telefono .container{
+  display: flex;
+  flex-direction: column;
+}
+.img .invitadas{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+}
+.temas{
+  display: flex;
+  flex-direction: column;
+}
+}
