@@ -231,8 +231,7 @@ audio {
 /*footer*/
 
 .titulo {
-  color: #fff;
-  background: gray;
+  color: #000;
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
