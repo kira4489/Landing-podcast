@@ -8,7 +8,7 @@ const audio3 = document.querySelector("#audio3");
 const imagenes3 = document.querySelector(".imagen-play3");
 
 //menu hamburguesa
-const navbar = document.querySelector('.navbar-menu');
+const navbar = document.querySelector('.navbar-menu-responsive');
 const menuHamburguesa = document.querySelector('.menu-responsive');
 
 menuHamburguesa.addEventListener('click', () => {
