@@ -7,6 +7,13 @@ const imagenes2 = document.querySelector(".imagen-play2");
 const audio3 = document.querySelector("#audio3");
 const imagenes3 = document.querySelector(".imagen-play3");
 
+//menu hamburguesa
+const navbar = document.querySelector('.navbar-menu');
+const menuHamburguesa = document.querySelector('.menu-responsive');
+
+menuHamburguesa.addEventListener('click', () => {
+  navbar.classList.toggle('show-menu-responsive');
+})
 
 imagenes.addEventListener("click", function () {
   if (audio.paused) {
